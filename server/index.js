@@ -12,7 +12,7 @@ app.use(express.json())
 app.use("/api/auth", require("./routes/auth.routes.js"))
 app.use("/api/job", require("./routes/jobPost.js"))
 app.use("/api/student", require("./routes/Student.routes.js"))
-app.use("/api/Apply", require("./routes/Apply.routes.js"))
+app.use("/api/Apply", require("./routes/apply.routes.js"))
 
 app.use("/api/admin", require("./routes/admin.routes.js"))
 
