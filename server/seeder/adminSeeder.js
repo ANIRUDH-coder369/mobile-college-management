@@ -6,6 +6,8 @@ const Admin = require("../model/Admin")
 
 exports.adminSeeder = async () => {
     try {
+        console.log('90');
+
         await mongoose.connect(process.env.MONGO_URL)
         console.log('db connect');
 
